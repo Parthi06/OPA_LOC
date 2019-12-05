@@ -1,0 +1,42 @@
+import * as schemaType from './schemaTypes';
+
+export const EventSchema = {
+    name: schemaType.EVENT_SCHEMA,
+    primaryKey: 'eventId',
+    properties: {
+        eventId: { type: 'int', indexed: true },
+        ticketId: { type: 'int' },
+        feedType: { type: 'string' },
+        assetId: { type: 'int' },
+        customerId: { type: 'int' },
+        eventSource: { type: 'string' },
+        eventCreatedDate: { type: 'double' },
+        eventLastUpdated: { type: 'double' },
+        eventHasTicket: { type: 'string' },
+        prognosisSummary1: { type: 'string' },
+        prognosisDetails1: { type: 'string?' },
+        userId: { type: 'int' },
+        userName: { type: 'string?' },
+        userType: { type: 'string?' },
+        userText: { type: 'string?' },
+        ticketState: { type: 'string?' },
+        ticketAssignedTo: { type: 'string?' },
+        ticketClosedBy: { type: 'int' },
+        tickeAssignee: { type: 'int' },
+        ticketReopenedDate: { type: 'string?' },
+        ticketCreatedDate: { type: 'string?' },
+        ticketDueDate: { type: 'string?' },
+        ticketLastUpdated: { type: 'string?' },
+        ticketPriority: { type: 'int' },
+        checkupResult: { type: 'string?' },
+        hasFeedback: { type: 'string?' },
+        assetTag: { type: 'string?' },
+        assetType: { type: 'string?' },
+        assetAddress: { type: 'string?' },
+        customerType: { type: 'string'},
+        follow: { type: 'int' },
+        eventComments: { type: 'string?[]' },
+        ticketComments: { type: 'string?' },
+        diagnosis: { type: 'int' }
+    }
+};

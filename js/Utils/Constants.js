@@ -1,0 +1,14 @@
+export const SERVER_URL = "https://dev.d-opabydesigns.com/opa_rest/V_2.0.1";
+export const HOME_SCREEN = "Home_Screen";
+export const ASSET_HISTORY_SCREEN = "Asset_History_Screen";
+export const DASHBOARD_SCREEN = "Dashboard_Screen";
+export const ASSET_SCREEN = "Asset_Screen";
+export const URGENT = "Urgent_Attention";
+export const CHECKUP = "Checkup";
+export const HEALTHY = "Good";
+export const UNKNOWN = "Unknown";
+export const ALL = "ALL";
+export const BUGSNAG_KEY = "development";
+export const RELEASE_STAGE = "development";
+export const FEEDS_REFRESH_TIMER = 30000;
+export const DASHBOARD_REFRESH_TIMER = 30000;
